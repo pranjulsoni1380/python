@@ -1,7 +1,3 @@
-#!/usr/bin/python
-
-
-
 import pymysql
 
 con = pymysql.connect('localhost', 'user7',
