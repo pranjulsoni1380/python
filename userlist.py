@@ -8,6 +8,8 @@ try:
     with con.cursor() as cur:
 
         cur.execute('SELECT user FROM mysql.user')
+        result = cur.fetchall()
+        print(result)
 
 finally:
 
