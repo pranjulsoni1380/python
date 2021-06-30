@@ -1,7 +1,7 @@
 import pymysql
 
-con = pymysql.connect('localhost', 'user7',
-    's$cret', 'testdb')
+con = pymysql.connect('dev-test-v2-app-mysql.cwspxlo5k4ke.us-west-2.rds.amazonaws.com', 'MYSQL_USERNAME',
+    'MYSQL_PASSWORD')
 
 try:
 
