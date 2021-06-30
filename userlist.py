@@ -1,6 +1,6 @@
 import pymysql
 
-con = pymysql.connect('dev-test-v2-app-mysql.cwspxlo5k4ke.us-west-2.rds.amazonaws.com', 'admin',
+con = pymysql.connect('database-1.cy1jk3ql5lqn.ap-south-1.rds.amazonaws.com', 'admin',
     'YHHfHhGL1380')
 
 try:
